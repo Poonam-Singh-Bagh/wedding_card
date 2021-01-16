@@ -1,0 +1,141 @@
+body {
+    background-color: #f06d26;
+}
+
+li {
+ float: right;   
+}
+
+.text {
+    text-align: center;
+    margin-top: 5%;
+    font-family: Raleway, sans-serif !important;
+    color: white;
+}
+
+h1 {
+    font-size: 370%;
+    /* font-style: oblique; */
+    font-family: 'Playfair Display', serif !important;
+}
+
+h4 {
+    width: 38%;
+    margin-left: 30%;
+    font-size: 110%;
+    margin-top: 1%;
+    /* margin-bottom: 4%; */
+}
+
+@media (max-width: 667px) {
+    h4 {
+        width: 90%;
+        margin-left: 4%;
+    }
+}
+
+a {
+    color: white;
+}
+
+.text a:hover {
+    color: silver;
+    text-decoration: none;
+    border-bottom: 2px solid #e95c10;
+}
+
+.card-body {
+    margin-left: 3%;
+}
+
+.card-img-top {
+    padding: 8%;
+}
+
+.color {
+    background-color: white;
+}
+
+.container {
+    text-align: center;
+}
+
+.card-title {
+    color: #f06d26;
+}
+
+.card-text {
+    color: rgb(129, 129, 129);
+    font-style: italic;
+    padding-bottom: 18%;
+
+}
+
+.color {
+    /* color: rgb(235, 234, 231); */
+    padding-bottom: 7%;
+    background-color: rgb(235, 234, 231);
+    padding-top: 13%;
+    padding-left: 43%;
+}
+
+.komal{
+    background-color: red ;
+    margin-top: 30px;
+}
+
+button {
+    color: white;
+    background-color: #f06d26;
+    border: 1px solid #f06d26;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-transform: uppercase;
+}
+
+@media (max-width: 667px) {
+    .color {
+        margin-left: -7%;
+    }
+}
+
+.foot {
+    background-color: rgb(58, 56, 56);
+    padding-top: 3.5%;
+    padding-bottom: 2%;
+    color: white;
+    text-align: center;
+    padding-left: 35%;
+    padding-right: 33%;
+    font-size: 90%;
+}
+
+.p1 {
+    padding-top: 20%;
+}
+
+@media (max-width: 667px) {
+    .foot {
+        background-color: rgb(58, 56, 56);
+       
+        color: white;
+        /* text-align: center; */
+        padding: 10px;
+      
+        font-size: 90%;
+       
+    }
+    
+}
+
+.p1 a {
+    color: rgb(143, 202, 241);
+}
+
+.p1 a:hover {
+    text-decoration: none;
+    color: rgb(126, 128, 129);
+}
+}
